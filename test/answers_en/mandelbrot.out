@@ -1,0 +1,277 @@
+1:1: HERE_ARE i have
+1:8: NUMBER_LIT 1
+1:10: VAR_TYPE_FUNC func
+1:16: NAME_IT name it
+1:24: IDENT '曼德博'
+1:31: TO_PERFORM_FUNC to perform
+1:43: REQUIRE_ARGS requires
+1:52: NUMBER_LIT 2
+1:54: VAR_TYPE num
+1:59: SAID called
+1:66: IDENT '寬'
+1:71: SAID called
+1:78: IDENT '高'
+1:83: FUNC_BEGIN func begin
+2:5: COMMENT NOTE
+2:11: STR_LIT "曼德博集。亦稱曼德布洛特复数集合。复平面上组成分形之点之集合也。"
+4:5: HERE_ARE i have
+4:12: NUMBER_LIT 1
+4:14: VAR_TYPE str
+4:19: SAID called
+4:26: STR_LIT "丁龘蠹臺龜畫龍淼蔑高五三二"
+4:45: NAME_IT name it
+4:53: IDENT '皴法'
+5:5: COMMENT NOTE
+5:11: STR_LIT "皴法者。圖畫之法也"
+7:5: EXP_MATH -
+7:9: NUMBER_LIT 0
+7:11: ->
+7:14: NUMBER_LIT 1
+7:17: NAME_IT name it
+7:25: IDENT '上'
+7:30: EXP_MATH +
+7:34: NUMBER_LIT 0
+7:36: ->
+7:39: NUMBER_LIT 1
+7:42: NAME_IT name it
+7:50: IDENT '下'
+8:5: EXP_MATH -
+8:9: NUMBER_LIT 0
+8:11: ->
+8:14: NUMBER_LIT 2
+8:17: NAME_IT name it
+8:25: IDENT '左'
+8:30: EXP_MATH +
+8:34: NUMBER_LIT 0
+8:36: ->
+8:39: NUMBER_LIT 2
+8:42: NAME_IT name it
+8:50: IDENT '右'
+10:5: EXP_MATH -
+10:9: IDENT '右'
+10:13: ->
+10:16: IDENT '左'
+10:21: EXP_MATH /
+10:25: ITS its
+10:29: ->
+10:32: IDENT '寬'
+10:37: NAME_IT name it
+10:45: IDENT '橫步'
+11:5: EXP_MATH -
+11:9: IDENT '下'
+11:13: ->
+11:16: IDENT '上'
+11:21: EXP_MATH /
+11:25: ITS its
+11:29: ->
+11:32: IDENT '高'
+11:37: NAME_IT name it
+11:45: IDENT '縱步'
+13:5: HERE_IS_A has a
+13:11: VAR_TYPE num
+13:15: NUMBER_LIT 0
+13:18: NAME_IT name it
+13:26: IDENT '戊'
+13:31: WHILE_TRUE while true
+13:43: IF if
+13:46: IDENT '戊'
+13:50: EXP_LOGIC ==
+13:53: IDENT '高'
+13:57: TOPIC topic
+13:63: BREAK break
+13:69: END end
+15:9: EXP_MATH *
+15:13: IDENT '縱步'
+15:18: ->
+15:21: IDENT '戊'
+15:26: EXP_MATH +
+15:30: ITS its
+15:34: ->
+15:37: IDENT '上'
+15:42: NAME_IT name it
+15:50: IDENT '虛'
+17:9: HERE_ARE i have
+17:16: NUMBER_LIT 1
+17:18: VAR_TYPE str
+17:23: NAME_IT name it
+17:31: IDENT '行'
+19:9: HERE_IS_A has a
+19:15: VAR_TYPE num
+19:19: NUMBER_LIT 0
+19:22: NAME_IT name it
+19:30: IDENT '戌'
+19:35: WHILE_TRUE while true
+19:47: IF if
+19:50: IDENT '戌'
+19:54: EXP_LOGIC ==
+19:57: IDENT '寬'
+19:61: TOPIC topic
+19:67: BREAK break
+19:73: END end
+21:13: EXP_MATH *
+21:17: IDENT '橫步'
+21:22: ->
+21:25: IDENT '戌'
+21:30: EXP_MATH +
+21:34: ITS its
+21:38: ->
+21:41: IDENT '左'
+21:46: NAME_IT name it
+21:54: IDENT '實'
+23:13: THOSE those
+23:19: IDENT '虛'
+23:24: NAME_IT name it
+23:32: IDENT '虛虛'
+24:13: THOSE those
+24:19: IDENT '實'
+24:24: NAME_IT name it
+24:32: IDENT '實實'
+26:13: COMMENT NOTE
+26:19: STR_LIT "凡每一像素。皆算令其收斂之最大疊代數"
+28:13: HERE_IS_A has a
+28:19: VAR_TYPE num
+28:23: NUMBER_LIT 0
+28:26: NAME_IT name it
+28:34: IDENT '己'
+28:39: WHILE_TRUE while true
+28:51: IF if
+28:54: IDENT '己'
+28:58: EXP_LOGIC ==
+28:61: NUMBER_LIT 12
+28:64: TOPIC topic
+28:70: BREAK break
+28:76: END end
+30:17: HERE_ARE i have
+30:24: NUMBER_LIT 2
+30:26: VAR_TYPE num
+30:31: SAID called
+30:38: EXP_MATH *
+30:42: IDENT '實實'
+30:47: ->
+30:50: IDENT '實實'
+30:56: SAID called
+30:63: EXP_MATH *
+30:67: IDENT '虛虛'
+30:72: ->
+30:75: IDENT '虛虛'
+30:81: NAME_IT name it
+30:89: IDENT '甲'
+30:94: SAID called
+30:101: IDENT '乙'
+31:17: EXP_MATH +
+31:21: IDENT '甲'
+31:25: ->
+31:28: IDENT '乙'
+31:33: NAME_IT name it
+31:41: IDENT '丙'
+32:17: IF if
+32:20: IDENT '丙'
+32:24: EXP_LOGIC >
+32:26: NUMBER_LIT 4
+32:28: TOPIC topic
+32:34: BREAK break
+32:40: END end
+34:17: EXP_MATH *
+34:21: IDENT '虛虛'
+34:26: ->
+34:29: IDENT '實實'
+34:35: EXP_MATH *
+34:39: ITS its
+34:43: ->
+34:46: NUMBER_LIT 2
+34:49: EXP_MATH +
+34:53: ITS its
+34:57: ->
+34:60: IDENT '虛'
+34:65: PAST prev
+34:70: IDENT '虛虛'
+34:75: TOPIC topic
+34:82: SET set
+34:86: ITS its
+34:90: IS_THUS is thus
+35:17: EXP_MATH -
+35:21: IDENT '甲'
+35:25: ->
+35:28: IDENT '乙'
+35:33: EXP_MATH +
+35:37: ITS its
+35:41: ->
+35:44: IDENT '實'
+35:49: PAST prev
+35:54: IDENT '實實'
+35:59: TOPIC topic
+35:66: SET set
+35:70: ITS its
+35:74: IS_THUS is thus
+37:13: EXP_MATH +
+37:17: NUMBER_LIT 1
+37:19: ->
+37:22: IDENT '己'
+37:27: PAST prev
+37:32: IDENT '己'
+37:36: TOPIC topic
+37:43: SET set
+37:47: ITS its
+37:51: IS_THUS is thus
+37:59: END end
+39:13: COMMENT NOTE
+39:19: STR_LIT "既得疊代數。乃以皴法圖之"
+41:13: EXP_MATH -
+41:17: NUMBER_LIT 13
+41:20: ->
+41:23: IDENT '己'
+41:28: NAME_IT name it
+41:36: IDENT '巳'
+42:13: THOSE those
+42:19: IDENT '皴法'
+42:24: INDEX of
+42:27: IDENT '巳'
+42:32: NAME_IT name it
+42:40: IDENT '墨'
+43:13: EXP_MATH +
+43:17: IDENT '行'
+43:21: ->
+43:24: IDENT '墨'
+43:29: PAST prev
+43:34: IDENT '行'
+43:38: TOPIC topic
+43:45: SET set
+43:49: ITS its
+43:53: IS_THUS is thus
+45:9: EXP_MATH +
+45:13: NUMBER_LIT 1
+45:15: ->
+45:18: IDENT '戌'
+45:23: PAST prev
+45:28: IDENT '戌'
+45:32: TOPIC topic
+45:39: SET set
+45:43: ITS its
+45:47: IS_THUS is thus
+45:55: END end
+47:9: HERE_ARE i have
+47:16: NUMBER_LIT 1
+47:18: VAR_TYPE str
+47:23: SAID called
+47:30: IDENT '行'
+47:35: PRINT print
+48:5: EXP_MATH +
+48:9: NUMBER_LIT 1
+48:11: ->
+48:14: IDENT '戊'
+48:19: PAST prev
+48:24: IDENT '戊'
+48:28: TOPIC topic
+48:35: SET set
+48:39: ITS its
+48:43: IS_THUS is thus
+48:51: END end
+49:1: FUNC_END_FOR func end for
+49:14: IDENT '曼德博'
+49:20: FUNC_END func end
+51:1: CALL call
+51:6: IDENT '曼德博'
+51:12: <-
+51:15: NUMBER_LIT 59
+51:19: <-
+51:22: NUMBER_LIT 24

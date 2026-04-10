@@ -1,0 +1,97 @@
+1:1: COMMENT NOTE
+1:7: STR_LIT "
+    斯篇專演「九九乘法」之理。
+    考《管子》、《算數書》皆載九九之術，乃算家之樞紐。
+    茲以雙重迴圈與明斷之法，羅列乘算口訣，以驗編譯器之全功。
+"
+7:1: COMMENT NOTE
+7:6: STR_LIT " 甲為乘數，肇始於一，至九乃極 "
+8:1: HERE_IS_A has a
+8:7: VAR_TYPE num
+8:11: NUMBER_LIT 1
+8:13: NAME_IT name it
+8:21: IDENT '甲'
+9:1: WHILE_TRUE while true
+9:13: IF if
+9:16: IDENT '甲'
+9:20: EXP_LOGIC >=
+9:23: NUMBER_LIT 10
+9:26: TOPIC topic
+9:32: BREAK break
+9:38: END end
+10:5: COMMENT NOTE
+10:10: STR_LIT " 乙為被乘數，亦自一始，隨甲流轉 "
+11:5: HERE_IS_A has a
+11:11: VAR_TYPE num
+11:15: NUMBER_LIT 1
+11:17: NAME_IT name it
+11:25: IDENT '乙'
+12:5: WHILE_TRUE while true
+12:17: IF if
+12:20: IDENT '乙'
+12:24: EXP_LOGIC >=
+12:27: NUMBER_LIT 10
+12:30: TOPIC topic
+12:36: BREAK break
+12:42: END end
+13:9: COMMENT NOTE
+13:14: STR_LIT " 步其積：果 = 甲乘乙 "
+14:9: EXP_MATH *
+14:13: IDENT '甲'
+14:17: ->
+14:20: IDENT '乙'
+14:24: NAME_IT name it
+14:32: IDENT '果'
+15:9: COMMENT NOTE
+15:14: STR_LIT " 觀其積：若滿十，逕直書之；若不及十，加『得』字以齊句讀 "
+16:9: IF if
+16:12: IDENT '果'
+16:16: EXP_LOGIC >=
+16:19: NUMBER_LIT 10
+16:22: TOPIC topic
+16:28: HERE_ARE i have
+16:35: NUMBER_LIT 3
+16:37: VAR_TYPE str
+16:42: SAID called
+16:49: IDENT '甲'
+16:53: SAID called
+16:60: IDENT '乙'
+16:64: SAID called
+16:71: IDENT '果'
+16:75: PRINT print
+17:9: ELSE else
+17:14: HERE_ARE i have
+17:21: NUMBER_LIT 4
+17:23: VAR_TYPE str
+17:28: SAID called
+17:35: IDENT '甲'
+17:39: SAID called
+17:46: IDENT '乙'
+17:50: SAID called
+17:57: STR_LIT "得"
+17:63: SAID called
+17:70: IDENT '果'
+17:74: PRINT print
+17:80: END end
+18:9: EXP_MATH +
+18:13: IDENT '乙'
+18:17: ->
+18:20: NUMBER_LIT 1
+18:23: PAST prev
+18:28: IDENT '乙'
+18:32: TOPIC topic
+18:38: SET set
+18:42: ITS its
+18:46: IS_THUS is thus
+19:5: END end
+20:5: EXP_MATH +
+20:9: IDENT '甲'
+20:13: ->
+20:16: NUMBER_LIT 1
+20:19: PAST prev
+20:24: IDENT '甲'
+20:28: TOPIC topic
+20:34: SET set
+20:38: ITS its
+20:42: IS_THUS is thus
+21:1: END end

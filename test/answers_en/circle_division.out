@@ -1,0 +1,184 @@
+1:1: COMMENT NOTE
+1:6: STR_LIT "割圓術始載於劉徽所著九章算術注"
+3:1: HERE_ARE i have
+3:8: NUMBER_LIT 1
+3:10: VAR_TYPE num
+3:15: SAID called
+3:22: NUMBER_LIT 1
+3:25: NAME_IT name it
+3:33: IDENT '半徑'
+4:1: EXP_MATH *
+4:5: IDENT '半徑'
+4:10: ->
+4:13: IDENT '半徑'
+4:19: NAME_IT name it
+4:27: IDENT '半徑平方'
+6:1: HERE_ARE i have
+6:8: NUMBER_LIT 1
+6:10: VAR_TYPE_FUNC func
+6:16: NAME_IT name it
+6:24: IDENT '求小弦'
+6:31: TO_PERFORM_FUNC to perform
+6:43: REQUIRE_ARGS requires
+6:52: NUMBER_LIT 2
+6:54: VAR_TYPE num
+6:59: SAID called
+6:66: IDENT '裏觚之面'
+6:74: SAID called
+6:81: IDENT '輪數'
+6:87: FUNC_BEGIN func begin
+7:2: IF if
+7:5: IDENT '輪數'
+7:10: EXP_LOGIC <
+7:12: NUMBER_LIT 1
+7:14: TOPIC topic
+7:21: RETURN return
+7:28: IDENT '裏觚之面'
+7:35: END end
+8:2: EXP_MATH /
+8:6: IDENT '裏觚之面'
+8:13: ->
+8:16: NUMBER_LIT 2
+8:19: NAME_IT name it
+8:27: IDENT '半面'
+9:2: EXP_MATH *
+9:6: IDENT '半面'
+9:11: ->
+9:14: IDENT '半面'
+9:20: NAME_IT name it
+9:28: IDENT '半面平方'
+10:2: EXP_MATH -
+10:6: IDENT '半徑平方'
+10:13: ->
+10:16: IDENT '半面平方'
+10:24: TAKE take
+10:29: NUMBER_LIT 1
+10:31: ->
+10:34: CALL call
+10:39: IDENT '平方根'
+10:46: NAME_IT name it
+10:54: IDENT '股'
+11:2: EXP_MATH -
+11:6: IDENT '半徑'
+11:11: ->
+11:14: IDENT '股'
+11:19: NAME_IT name it
+11:27: IDENT '小句'
+12:2: EXP_MATH *
+12:6: IDENT '小句'
+12:11: ->
+12:14: IDENT '小句'
+12:20: EXP_MATH +
+12:24: ITS its
+12:28: ->
+12:31: IDENT '半面平方'
+12:39: TAKE take
+12:44: NUMBER_LIT 1
+12:46: ->
+12:49: CALL call
+12:54: IDENT '平方根'
+12:61: NAME_IT name it
+12:69: IDENT '小弦'
+13:2: THOSE those
+13:8: IDENT '小弦'
+13:14: EXP_MATH -
+13:18: IDENT '輪數'
+13:23: ->
+13:26: NUMBER_LIT 1
+13:29: TAKE take
+13:34: NUMBER_LIT 2
+13:36: ->
+13:39: CALL call
+13:44: IDENT '求小弦'
+13:51: RETURN return
+13:58: END end
+14:1: FUNC_END_FOR func end for
+14:14: IDENT '求小弦'
+14:20: FUNC_END func end
+16:1: COMMENT NOTE
+16:6: STR_LIT "輪數始於一"
+17:1: HERE_ARE i have
+17:8: NUMBER_LIT 1
+17:10: VAR_TYPE_FUNC func
+17:16: NAME_IT name it
+17:24: IDENT '割圓術求圓率'
+17:34: TO_PERFORM_FUNC to perform
+17:46: REQUIRE_ARGS requires
+17:55: NUMBER_LIT 1
+17:57: VAR_TYPE num
+17:61: SAID called
+17:68: IDENT '輪數'
+17:74: FUNC_BEGIN func begin
+18:2: EXP_MATH -
+18:6: IDENT '輪數'
+18:11: ->
+18:14: NUMBER_LIT 1
+18:17: PAST prev
+18:22: IDENT '輪數'
+18:27: TOPIC topic
+18:34: SET set
+18:38: ITS its
+18:42: IS_THUS is thus
+19:2: CALL call
+19:7: IDENT '冪'
+19:11: <-
+19:14: NUMBER_LIT 2
+19:16: <-
+19:19: IDENT '輪數'
+19:25: EXP_MATH *
+19:29: ITS its
+19:33: ->
+19:36: NUMBER_LIT 6
+19:39: NAME_IT name it
+19:47: IDENT '觚數'
+20:2: CALL call
+20:7: IDENT '求小弦'
+20:13: <-
+20:16: IDENT '半徑'
+20:21: <-
+20:24: IDENT '輪數'
+20:30: NAME_IT name it
+20:38: IDENT '小弦'
+21:2: EXP_MATH *
+21:6: IDENT '小弦'
+21:11: ->
+21:14: IDENT '觚數'
+21:20: NAME_IT name it
+21:28: IDENT '觚周'
+22:2: EXP_MATH /
+22:6: IDENT '觚周'
+22:11: ->
+22:14: NUMBER_LIT 2
+22:17: EXP_MATH *
+22:21: ITS its
+22:25: ->
+22:28: IDENT '半徑'
+22:34: NAME_IT name it
+22:42: IDENT '觚冪'
+23:2: EXP_MATH /
+23:6: IDENT '觚冪'
+23:11: ->
+23:14: IDENT '半徑平方'
+23:22: NAME_IT name it
+23:30: IDENT '圓率'
+24:2: THOSE those
+24:8: STR_LIT "割圓"
+24:16: THOSE those
+24:22: IDENT '觚數'
+24:28: THOSE those
+24:34: STR_LIT "觚。所得圓率者。"
+24:48: PRINT print
+25:2: THOSE those
+25:8: IDENT '圓率'
+25:14: THOSE those
+25:20: STR_LIT "也。"
+25:28: PRINT print
+26:2: RETURN return
+26:9: IDENT '圓率'
+27:1: FUNC_END_FOR func end for
+27:14: IDENT '割圓術求圓率'
+27:23: FUNC_END func end
+29:1: CALL call
+29:6: IDENT '割圓術求圓率'
+29:15: <-
+29:18: NUMBER_LIT 10

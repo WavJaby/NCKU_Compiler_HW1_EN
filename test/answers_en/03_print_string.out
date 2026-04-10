@@ -1,0 +1,210 @@
+1:1: COMMENT NOTE
+1:7: STR_LIT "
+    斯篇綜匯型態宣告、易值及字串並聯輸出之法。
+    驗其單立與連立數、言、爻諸名，
+    考其更迭舊值，暨鎔鑄字串與變數而書之，
+    以測編譯轉譯之全功。
+"
+8:1: HERE_ARE i have
+8:8: NUMBER_LIT 1
+8:10: VAR_TYPE num
+8:15: NAME_IT name it
+8:23: IDENT '甲'
+8:65: COMMENT NOTE
+8:70: STR_LIT " int 甲; "
+9:1: HERE_ARE i have
+9:8: NUMBER_LIT 1
+9:10: VAR_TYPE num
+9:15: SAID called
+9:22: NUMBER_LIT 1
+9:25: NAME_IT name it
+9:33: IDENT '己'
+9:69: COMMENT NOTE
+9:74: STR_LIT " int 己 = 1; "
+10:1: HERE_ARE i have
+10:8: NUMBER_LIT 2
+10:10: VAR_TYPE num
+10:15: SAID called
+10:22: NUMBER_LIT 3
+10:25: SAID called
+10:32: NUMBER_LIT 5
+10:35: NAME_IT name it
+10:43: IDENT '乙'
+10:47: SAID called
+10:54: IDENT '丙'
+10:76: COMMENT NOTE
+10:81: STR_LIT " int 乙 = 3, 丙 = 5; "
+11:1: HERE_ARE i have
+11:8: NUMBER_LIT 3
+11:10: VAR_TYPE num
+11:15: SAID called
+11:22: NUMBER_LIT 2
+11:25: SAID called
+11:32: NUMBER_LIT 4
+11:35: SAID called
+11:42: NUMBER_LIT 6
+11:45: NAME_IT name it
+11:53: IDENT '辛'
+11:57: SAID called
+11:64: IDENT '壬'
+11:68: SAID called
+11:75: IDENT '癸'
+11:83: COMMENT NOTE
+11:88: STR_LIT " int 辛 = 2, 壬 = 4, 癸 = 6; "
+12:1: HERE_ARE i have
+12:8: NUMBER_LIT 2
+12:10: VAR_TYPE num
+12:15: NAME_IT name it
+12:23: IDENT '空'
+12:28: SAID called
+12:35: IDENT '無'
+12:67: COMMENT NOTE
+12:72: STR_LIT " int 空, 無; "
+14:1: HERE_ARE i have
+14:8: NUMBER_LIT 1
+14:10: VAR_TYPE str
+14:15: SAID called
+14:22: STR_LIT "噫吁戲！"
+14:32: NAME_IT name it
+14:40: IDENT '唉呀'
+14:61: COMMENT NOTE
+14:66: STR_LIT " char* 唉呀 = "噫吁戲！"; "
+15:1: HERE_ARE i have
+15:8: NUMBER_LIT 1
+15:10: VAR_TYPE bool
+15:16: SAID called
+15:23: BOOL_LIT false
+15:30: NAME_IT name it
+15:38: IDENT '陰陽'
+15:73: COMMENT NOTE
+15:78: STR_LIT " bool 陰陽 = false; "
+16:1: HERE_ARE i have
+16:8: NUMBER_LIT 1
+16:10: VAR_TYPE any
+16:15: SAID called
+16:22: NUMBER_LIT 1
+16:25: NAME_IT name it
+16:33: IDENT '隨義'
+16:68: COMMENT NOTE
+16:73: STR_LIT " int 隨義 = 1; "
+17:1: HERE_IS_A has a
+17:7: VAR_TYPE bool
+17:13: NAME_IT name it
+17:21: IDENT '否'
+17:67: COMMENT NOTE
+17:72: STR_LIT " bool 否; "
+19:1: HERE_IS_A has a
+19:7: VAR_TYPE num
+19:11: NUMBER_LIT 50
+19:15: NAME_IT name it
+19:23: IDENT '大衍'
+19:64: COMMENT NOTE
+19:69: STR_LIT " int 大衍 = 50; "
+20:1: HERE_IS_A has a
+20:7: VAR_TYPE str
+20:11: STR_LIT "問天地好在。"
+20:23: NAME_IT name it
+20:31: IDENT '文言'
+20:56: COMMENT NOTE
+20:61: STR_LIT " char* 文言 = "問天地好在。"; "
+21:1: PAST prev
+21:6: IDENT '丙'
+21:10: TOPIC topic
+21:17: SET set
+21:21: IDENT '大衍'
+21:26: IS_THUS is thus
+21:66: COMMENT NOTE
+21:71: STR_LIT " 丙 = 大衍; "
+22:1: HERE_ARE i have
+22:8: NUMBER_LIT 1
+22:10: VAR_TYPE num
+22:15: SAID called
+22:22: IDENT '己'
+22:27: NAME_IT name it
+22:35: IDENT '丁'
+22:67: COMMENT NOTE
+22:72: STR_LIT " int 丁 = 己; "
+24:1: COMMENT NOTE
+24:6: STR_LIT " printf("觀乎數理，甲得%d，乙得%d\n", 甲, 乙); "
+25:1: HERE_ARE i have
+25:8: NUMBER_LIT 4
+25:10: VAR_TYPE str
+25:15: SAID called
+25:22: STR_LIT "觀乎數理，甲得"
+25:35: SAID called
+25:42: IDENT '甲'
+25:47: SAID called
+25:54: STR_LIT "，乙得"
+25:63: SAID called
+25:70: IDENT '乙'
+25:75: PRINT print
+27:1: COMMENT NOTE
+27:6: STR_LIT " printf("『丙』今化為大衍之數：%d\n", 丙); "
+28:1: HERE_ARE i have
+28:8: NUMBER_LIT 2
+28:10: VAR_TYPE str
+28:15: SAID called
+28:22: STR_LIT "『丙』今化為大衍之數："
+28:39: SAID called
+28:46: IDENT '丙'
+28:51: PRINT print
+30:1: COMMENT NOTE
+30:6: STR_LIT " printf("陰陽之相乃%d\n", 陰陽); "
+31:1: HERE_ARE i have
+31:8: NUMBER_LIT 2
+31:10: VAR_TYPE str
+31:15: SAID called
+31:22: STR_LIT "陰陽之相乃"
+31:33: SAID called
+31:40: IDENT '陰陽'
+31:46: PRINT print
+33:1: COMMENT NOTE
+33:6: STR_LIT " printf("有言曰：%s%s\n", 文言, 唉呀); "
+34:1: HERE_ARE i have
+34:8: NUMBER_LIT 3
+34:10: VAR_TYPE str
+34:15: SAID called
+34:22: STR_LIT "有言曰："
+34:32: SAID called
+34:39: IDENT '文言'
+34:45: SAID called
+34:52: IDENT '唉呀'
+34:58: PRINT print
+36:1: COMMENT NOTE
+36:6: STR_LIT " printf("辛%d，壬%d，癸%d\n", 辛, 壬, 癸); "
+37:1: HERE_ARE i have
+37:8: NUMBER_LIT 6
+37:10: VAR_TYPE str
+37:15: SAID called
+37:22: STR_LIT "辛"
+37:29: SAID called
+37:36: IDENT '辛'
+37:41: SAID called
+37:48: STR_LIT "，壬"
+37:56: SAID called
+37:63: IDENT '壬'
+37:68: SAID called
+37:75: STR_LIT "，癸"
+37:83: SAID called
+37:90: IDENT '癸'
+37:95: PRINT print
+39:1: COMMENT NOTE
+39:6: STR_LIT " printf("丁之值為：%d\n", 丁); "
+40:1: HERE_ARE i have
+40:8: NUMBER_LIT 2
+40:10: VAR_TYPE str
+40:15: SAID called
+40:22: STR_LIT "丁之值為："
+40:33: SAID called
+40:40: IDENT '丁'
+40:45: PRINT print
+42:1: COMMENT NOTE
+42:6: STR_LIT " printf("隨義之值為：%d\n", 隨義); "
+43:1: HERE_ARE i have
+43:8: NUMBER_LIT 2
+43:10: VAR_TYPE str
+43:15: SAID called
+43:22: STR_LIT "隨義之值為："
+43:34: SAID called
+43:41: IDENT '隨義'
+43:47: PRINT print

@@ -1,0 +1,12 @@
+NOTE  [[
+    斯篇專作變數立名與賦值之驗證。
+    考其立數、紀言、定陰陽之法，
+    以驗編譯器轉譯之效。
+]]
+
+i have 1 bool. called false. name it [陰陽].               NOTE [[ bool 陰陽 = false; ]]
+i have 1 num. called 1. name it [甲].                 NOTE [[ int 甲 = 1; ]]
+i have 1 num. called 1.2. name it [乙].              NOTE [[ double 乙 = 1.2; ]]
+
+has a bool. name it [陰].                           NOTE [[ bool 陰; // Default false ]]
+has a num. name it [零].                           NOTE [[ int 零; // Default 0 ]]

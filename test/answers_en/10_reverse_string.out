@@ -1,0 +1,91 @@
+1:1: COMMENT NOTE
+1:7: STR_LIT "
+    斯篇專考「字串加法」與「字串取值」之機。
+    以迴文倒敘之法，將字串逐字反轉，
+    以驗編譯器於字串疊加、易值及迴圈之全功也。
+"
+7:1: HERE_ARE i have
+7:8: NUMBER_LIT 1
+7:10: VAR_TYPE str
+7:15: SAID called
+7:22: STR_LIT "客上天然居"
+7:33: NAME_IT name it
+7:41: IDENT '正讀'
+8:1: HERE_IS_A has a
+8:7: VAR_TYPE num
+8:11: NUMBER_LIT 5
+8:14: NAME_IT name it
+8:22: IDENT '長度'
+10:1: COMMENT NOTE
+10:6: STR_LIT "立空言以俟疊加"
+11:1: HERE_ARE i have
+11:8: NUMBER_LIT 1
+11:10: VAR_TYPE str
+11:15: NAME_IT name it
+11:23: IDENT '倒讀'
+13:1: HERE_IS_A has a
+13:7: VAR_TYPE num
+13:11: NUMBER_LIT 0
+13:14: NAME_IT name it
+13:22: IDENT '甲'
+14:1: WHILE_TRUE while true
+14:13: IF if
+14:16: IDENT '甲'
+14:20: EXP_LOGIC ==
+14:23: IDENT '長度'
+14:28: TOPIC topic
+14:34: BREAK break
+14:40: END end
+16:5: COMMENT NOTE
+16:10: STR_LIT "溯洄求索：長度減甲"
+17:5: EXP_MATH -
+17:9: IDENT '長度'
+17:14: ->
+17:17: IDENT '甲'
+17:22: NAME_IT name it
+17:30: IDENT '索引'
+19:5: THOSE those
+19:11: IDENT '正讀'
+19:16: INDEX of
+19:19: IDENT '索引'
+19:25: NAME_IT name it
+19:33: IDENT '單字'
+21:5: COMMENT NOTE
+21:10: STR_LIT "取其單字，累入倒讀"
+22:5: EXP_MATH +
+22:9: IDENT '倒讀'
+22:14: ->
+22:17: IDENT '單字'
+22:23: PAST prev
+22:28: IDENT '倒讀'
+22:33: TOPIC topic
+22:40: SET set
+22:44: ITS its
+22:48: IS_THUS is thus
+24:5: EXP_MATH +
+24:9: NUMBER_LIT 1
+24:11: ->
+24:14: IDENT '甲'
+24:19: PAST prev
+24:24: IDENT '甲'
+24:28: TOPIC topic
+24:35: SET set
+24:39: ITS its
+24:43: IS_THUS is thus
+25:1: END end
+27:1: HERE_ARE i have
+27:8: NUMBER_LIT 2
+27:10: VAR_TYPE str
+27:15: SAID called
+27:22: STR_LIT "正向觀之："
+27:33: SAID called
+27:40: IDENT '正讀'
+27:46: PRINT print
+28:1: HERE_ARE i have
+28:8: NUMBER_LIT 2
+28:10: VAR_TYPE str
+28:15: SAID called
+28:22: STR_LIT "倒向讀之："
+28:33: SAID called
+28:40: IDENT '倒讀'
+28:46: PRINT print

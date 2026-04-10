@@ -1,0 +1,45 @@
+1:1: COMMENT NOTE
+1:7: STR_LIT "
+    斯篇專作變數立名與賦值之驗證。
+    考其立數、紀言、定陰陽之法，
+    以驗編譯器轉譯之效。
+"
+7:1: HERE_ARE i have
+7:8: NUMBER_LIT 1
+7:10: VAR_TYPE bool
+7:16: SAID called
+7:23: BOOL_LIT false
+7:30: NAME_IT name it
+7:38: IDENT '陰陽'
+7:58: COMMENT NOTE
+7:63: STR_LIT " bool 陰陽 = false; "
+8:1: HERE_ARE i have
+8:8: NUMBER_LIT 1
+8:10: VAR_TYPE num
+8:15: SAID called
+8:22: NUMBER_LIT 1
+8:25: NAME_IT name it
+8:33: IDENT '甲'
+8:54: COMMENT NOTE
+8:59: STR_LIT " int 甲 = 1; "
+9:1: HERE_ARE i have
+9:8: NUMBER_LIT 1
+9:10: VAR_TYPE num
+9:15: SAID called
+9:22: NUMBER_LIT 1.2
+9:27: NAME_IT name it
+9:35: IDENT '乙'
+9:53: COMMENT NOTE
+9:58: STR_LIT " double 乙 = 1.2; "
+11:1: HERE_IS_A has a
+11:7: VAR_TYPE bool
+11:13: NAME_IT name it
+11:21: IDENT '陰'
+11:52: COMMENT NOTE
+11:57: STR_LIT " bool 陰; // Default false "
+12:1: HERE_IS_A has a
+12:7: VAR_TYPE num
+12:12: NAME_IT name it
+12:20: IDENT '零'
+12:51: COMMENT NOTE
+12:56: STR_LIT " int 零; // Default 0 "

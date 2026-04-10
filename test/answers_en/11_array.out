@@ -1,0 +1,153 @@
+1:1: COMMENT NOTE
+1:7: STR_LIT "
+    斯篇專試陣列「充」、「之長」與「迴圈取值」之機巧。
+    不涉拼接、陣列易值、其一、其餘與凡字走訪，
+    以驗編譯器列法與索引之基石也。
+"
+7:1: HERE_ARE i have
+7:8: NUMBER_LIT 1
+7:10: VAR_TYPE list
+7:16: NAME_IT name it
+7:24: IDENT '五音'
+8:1: PUSH push
+8:6: IDENT '五音'
+8:11: ->
+8:14: STR_LIT "宮"
+8:21: ->
+8:24: STR_LIT "商"
+8:31: ->
+8:34: STR_LIT "角"
+8:41: ->
+8:44: STR_LIT "徵"
+8:51: ->
+8:54: STR_LIT "羽"
+10:1: HERE_ARE i have
+10:8: NUMBER_LIT 1
+10:10: VAR_TYPE list
+10:16: NAME_IT name it
+10:24: IDENT '四象'
+11:1: PUSH push
+11:6: IDENT '四象'
+11:11: ->
+11:14: STR_LIT "青龍"
+11:22: ->
+11:25: STR_LIT "白虎"
+11:33: ->
+11:36: STR_LIT "朱雀"
+11:44: ->
+11:47: STR_LIT "玄武"
+13:1: HERE_ARE i have
+13:8: NUMBER_LIT 1
+13:10: VAR_TYPE list
+13:16: NAME_IT name it
+13:24: IDENT '天地萬象'
+14:1: PUSH push
+14:6: IDENT '天地萬象'
+14:13: ->
+14:16: IDENT '五音'
+14:22: ->
+14:25: IDENT '四象'
+16:1: HERE_ARE i have
+16:8: NUMBER_LIT 1
+16:10: VAR_TYPE str
+16:15: SAID called
+16:22: STR_LIT "五音之長，計有："
+16:36: PRINT print
+17:1: THOSE those
+17:7: IDENT '五音'
+17:12: LENGTH length
+17:20: PRINT print
+19:1: HERE_ARE i have
+19:8: NUMBER_LIT 1
+19:10: VAR_TYPE str
+19:15: SAID called
+19:22: STR_LIT "四象之長，計有："
+19:36: PRINT print
+20:1: THOSE those
+20:7: IDENT '四象'
+20:12: LENGTH length
+20:20: PRINT print
+22:1: HERE_ARE i have
+22:8: NUMBER_LIT 1
+22:10: VAR_TYPE str
+22:15: SAID called
+22:22: STR_LIT "天地萬象之長（內含幾列），計有："
+22:44: PRINT print
+23:1: THOSE those
+23:7: IDENT '天地萬象'
+23:14: LENGTH length
+23:22: PRINT print
+25:1: COMMENT NOTE
+25:7: STR_LIT " 測試以恆為是迴圈與索引逐一取出陣列內容 "
+26:1: HERE_ARE i have
+26:8: NUMBER_LIT 1
+26:10: VAR_TYPE str
+26:15: SAID called
+26:22: STR_LIT "以迴圈逐一取五音列中之物："
+26:41: PRINT print
+28:1: HERE_IS_A has a
+28:7: VAR_TYPE num
+28:11: NUMBER_LIT 1
+28:14: NAME_IT name it
+28:22: IDENT '甲'
+29:1: WHILE_TRUE while true
+29:13: IF if
+29:16: IDENT '甲'
+29:20: EXP_LOGIC >
+29:22: IDENT '五音'
+29:27: LENGTH length
+29:34: TOPIC topic
+29:41: BREAK break
+29:47: END end
+30:5: THOSE those
+30:11: IDENT '五音'
+30:16: INDEX of
+30:19: IDENT '甲'
+30:24: PRINT print
+31:5: EXP_MATH +
+31:9: IDENT '甲'
+31:13: ->
+31:16: NUMBER_LIT 1
+31:19: PAST prev
+31:24: IDENT '甲'
+31:28: TOPIC topic
+31:35: SET set
+31:39: ITS its
+31:43: IS_THUS is thus
+32:1: END end
+34:1: HERE_ARE i have
+34:8: NUMBER_LIT 1
+34:10: VAR_TYPE str
+34:15: SAID called
+34:22: STR_LIT "以迴圈逐一取四象列中之物："
+34:41: PRINT print
+36:1: HERE_IS_A has a
+36:7: VAR_TYPE num
+36:11: NUMBER_LIT 1
+36:14: NAME_IT name it
+36:22: IDENT '乙'
+37:1: WHILE_TRUE while true
+37:13: IF if
+37:16: IDENT '乙'
+37:20: EXP_LOGIC >
+37:22: IDENT '四象'
+37:27: LENGTH length
+37:34: TOPIC topic
+37:41: BREAK break
+37:47: END end
+38:5: THOSE those
+38:11: IDENT '四象'
+38:16: INDEX of
+38:19: IDENT '乙'
+38:24: PRINT print
+39:5: EXP_MATH +
+39:9: IDENT '乙'
+39:13: ->
+39:16: NUMBER_LIT 1
+39:19: PAST prev
+39:24: IDENT '乙'
+39:28: TOPIC topic
+39:35: SET set
+39:39: ITS its
+39:43: IS_THUS is thus
+40:1: END end

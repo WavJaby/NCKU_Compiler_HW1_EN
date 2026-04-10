@@ -1,0 +1,116 @@
+1:1: COMMENT NOTE
+1:7: STR_LIT "
+    斯篇專演「方術」之奧。
+    借泰西算學牛頓之法，以漸近求精，
+    推求平冪之源（根號二），以驗編譯器「術（函式）」之宣告與施作也。
+"
+7:1: HERE_ARE i have
+7:8: NUMBER_LIT 1
+7:10: VAR_TYPE_FUNC func
+7:16: NAME_IT name it
+7:24: IDENT '牛頓求根法'
+7:33: TO_PERFORM_FUNC to perform
+7:45: REQUIRE_ARGS requires
+7:54: NUMBER_LIT 1
+7:56: VAR_TYPE num
+7:61: SAID called
+7:68: IDENT '試'
+7:73: FUNC_BEGIN func begin
+8:5: COMMENT NOTE
+8:10: STR_LIT " 設甲為初限，啟算之基 "
+9:5: HERE_IS_A has a
+9:11: VAR_TYPE num
+9:15: NUMBER_LIT 1
+9:18: NAME_IT name it
+9:26: IDENT '甲'
+10:5: HERE_IS_A has a
+10:11: VAR_TYPE num
+10:15: NUMBER_LIT 1
+10:18: NAME_IT name it
+10:26: IDENT '乙'
+11:5: FOR for
+11:9: IDENT '試'
+11:13: TIMES times
+12:9: COMMENT NOTE
+12:14: STR_LIT " 求其差謬：乙 = 甲平冪減二 "
+13:9: EXP_MATH *
+13:13: IDENT '甲'
+13:17: <-
+13:20: IDENT '甲'
+13:25: EXP_MATH -
+13:29: ITS its
+13:33: ->
+13:36: NUMBER_LIT 2
+13:39: PAST prev
+13:44: IDENT '乙'
+13:48: TOPIC topic
+13:54: SET set
+13:58: ITS its
+13:62: IS_THUS is thus
+14:9: COMMENT NOTE
+14:14: STR_LIT " 求其變率：丙 = 甲倍之 "
+15:9: EXP_MATH *
+15:13: NUMBER_LIT 2
+15:15: <-
+15:18: IDENT '甲'
+15:23: NAME_IT name it
+15:31: IDENT '丙'
+16:9: COMMENT NOTE
+16:14: STR_LIT " 茂 = 乙除以丙 "
+17:9: EXP_MATH /
+17:13: IDENT '乙'
+17:17: ->
+17:20: IDENT '丙'
+17:25: NAME_IT name it
+17:33: IDENT '茂'
+18:9: COMMENT NOTE
+18:14: STR_LIT " 依法損益：甲 = 甲減茂，以逼真值 "
+19:9: EXP_MATH -
+19:13: IDENT '甲'
+19:17: ->
+19:20: IDENT '茂'
+19:25: NAME_IT name it
+19:33: IDENT '甲'
+20:5: END end
+21:5: RETURN return
+21:12: IDENT '甲'
+22:1: FUNC_END_FOR func end for
+22:14: IDENT '牛頓求根法'
+22:22: FUNC_END func end
+24:1: COMMENT NOTE
+24:6: STR_LIT " 施術驗算，迭演愈多，其數愈微，窮理盡性 "
+25:1: CALL call
+25:6: IDENT '牛頓求根法'
+25:14: <-
+25:17: NUMBER_LIT 2
+25:20: PRINT print
+26:1: CALL call
+26:6: IDENT '牛頓求根法'
+26:14: <-
+26:17: NUMBER_LIT 3
+26:20: PRINT print
+27:1: CALL call
+27:6: IDENT '牛頓求根法'
+27:14: <-
+27:17: NUMBER_LIT 5
+27:20: PRINT print
+28:1: CALL call
+28:6: IDENT '牛頓求根法'
+28:14: <-
+28:17: NUMBER_LIT 7
+28:20: PRINT print
+29:1: CALL call
+29:6: IDENT '牛頓求根法'
+29:14: <-
+29:17: NUMBER_LIT 13
+29:21: PRINT print
+30:1: CALL call
+30:6: IDENT '牛頓求根法'
+30:14: <-
+30:17: NUMBER_LIT 131
+30:22: PRINT print
+31:1: CALL call
+31:6: IDENT '牛頓求根法'
+31:14: <-
+31:17: NUMBER_LIT 1013
+31:23: PRINT print

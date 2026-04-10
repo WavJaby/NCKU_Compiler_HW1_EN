@@ -1,0 +1,127 @@
+1:1: COMMENT NOTE
+1:7: STR_LIT "
+    斯篇專試「明斷」之機巧。
+    借賈島《尋隱者不遇》之尋訪層次，
+    以驗「若」、「或若」、「若非」之連鎖，
+    並辨「雲」、「霧」迷障之理，
+    以觀編譯器決斷吉凶、尋芳探幽之趣也。
+"
+9:1: HERE_ARE i have
+9:8: NUMBER_LIT 1
+9:10: VAR_TYPE str
+9:15: SAID called
+9:22: STR_LIT "松下問童子，欲尋隱者蹤。"
+9:40: PRINT print
+11:1: HERE_IS_A has a
+11:7: VAR_TYPE num
+11:11: NUMBER_LIT 3
+11:14: NAME_IT name it
+11:22: IDENT '尋訪線索'
+13:1: COMMENT NOTE
+13:7: STR_LIT " 驗證 若 與 若非 之嵌套 "
+14:1: IF if
+14:4: IDENT '尋訪線索'
+14:11: EXP_LOGIC >
+14:13: NUMBER_LIT 2
+14:15: TOPIC topic
+15:5: HERE_IS_A has a
+15:11: VAR_TYPE str
+15:15: STR_LIT "想當然耳！線索俱全，必能尋得隱者。"
+15:37: PRINT print
+16:1: ELSE else
+17:5: HERE_IS_A has a
+17:11: VAR_TYPE str
+17:15: STR_LIT "怪哉！深山逢童子，竟問不出隻言片語？"
+17:38: PRINT print
+18:1: END end
+20:1: COMMENT NOTE
+20:7: STR_LIT " 驗證 或若 之連鎖 "
+21:1: IF if
+21:4: IDENT '尋訪線索'
+21:11: EXP_LOGIC ==
+21:14: NUMBER_LIT 1
+21:16: TOPIC topic
+22:5: HERE_IS_A has a
+22:11: VAR_TYPE str
+22:15: STR_LIT "童子答曰：『言師採藥去。』"
+22:33: PRINT print
+23:1: ELSE_IF else if
+23:9: IDENT '尋訪線索'
+23:16: EXP_LOGIC ==
+23:19: NUMBER_LIT 2
+23:21: TOPIC topic
+24:5: HERE_IS_A has a
+24:11: VAR_TYPE str
+24:15: STR_LIT "童子指山曰：『只在此山中。』"
+24:34: PRINT print
+25:1: ELSE_IF else if
+25:9: IDENT '尋訪線索'
+25:16: EXP_LOGIC ==
+25:19: NUMBER_LIT 3
+25:21: TOPIC topic
+26:5: HERE_IS_A has a
+26:11: VAR_TYPE str
+26:15: STR_LIT "童子搖頭曰：『雲深不知處。』"
+26:34: PRINT print
+27:1: ELSE else
+28:5: HERE_IS_A has a
+28:11: VAR_TYPE str
+28:15: STR_LIT "奇了，童子竟言他物！"
+28:30: PRINT print
+29:1: END end
+31:1: COMMENT NOTE
+31:7: STR_LIT " 驗證 邏輯運算 (AND/OR) 觀山中雲霧 "
+32:1: HERE_ARE i have
+32:8: NUMBER_LIT 2
+32:10: VAR_TYPE bool
+32:16: SAID called
+32:23: BOOL_LIT true
+32:29: SAID called
+32:36: BOOL_LIT false
+32:43: NAME_IT name it
+32:51: IDENT '雲'
+32:55: SAID called
+32:62: IDENT '霧'
+34:1: COMMENT NOTE
+34:7: STR_LIT " 陽為有，陰為無 "
+35:1: IF if
+35:5: THOSE those
+35:11: IDENT '雲'
+35:15: IDENT '霧'
+35:19: EXP_LOGIC ||
+35:35: TOPIC topic
+36:5: HERE_IS_A has a
+36:11: VAR_TYPE str
+36:15: STR_LIT "妙哉，山中尚存一絲雲霧，仙氣縹緲！"
+36:37: PRINT print
+37:1: END end
+39:1: IF if
+39:5: THOSE those
+39:11: IDENT '雲'
+39:15: IDENT '霧'
+39:19: EXP_LOGIC &&
+39:29: TOPIC topic
+40:5: HERE_IS_A has a
+40:11: VAR_TYPE str
+40:15: STR_LIT "善哉，雲霧皆備，此乃神仙洞府之境！"
+40:37: PRINT print
+41:1: END end
+43:1: COMMENT NOTE
+43:7: STR_LIT " 驗證 且 與 且非 之類，當察其爻值易位 "
+44:1: PAST prev
+44:6: IDENT '霧'
+44:10: TOPIC topic
+44:17: SET set
+44:21: IDENT '雲'
+44:25: IS_THUS is thus
+45:1: IF if
+45:5: THOSE those
+45:11: IDENT '雲'
+45:15: IDENT '霧'
+45:19: EXP_LOGIC &&
+45:29: TOPIC topic
+46:5: HERE_IS_A has a
+46:11: VAR_TYPE str
+46:15: STR_LIT "大善！雲遮霧掩，今皆化作漫天純白，真乃『雲深不知處』矣！"
+46:48: PRINT print
+47:1: END end

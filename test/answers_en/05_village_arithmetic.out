@@ -1,0 +1,157 @@
+1:1: COMMENT NOTE
+1:7: STR_LIT "
+    斯篇專演「詩算」之趣。
+    借宋代邵雍《山村詠懷》之數字詩，
+    將一至十之數，融於風物之中。
+    以驗加減與變數易易之法，觀編譯器點算天地之功也。
+"
+8:1: HERE_ARE i have
+8:8: NUMBER_LIT 1
+8:10: VAR_TYPE str
+8:15: SAID called
+8:22: STR_LIT "老夫今日不卜卦，且出城踏青，算算這山間野趣。"
+8:50: PRINT print
+10:1: HERE_ARE i have
+10:8: NUMBER_LIT 1
+10:10: VAR_TYPE str
+10:15: SAID called
+10:22: STR_LIT "一去二三里，煙村四五家。"
+10:40: PRINT print
+12:1: HERE_IS_A has a
+12:7: VAR_TYPE num
+12:11: NUMBER_LIT 2
+12:14: NAME_IT name it
+12:22: IDENT '去路'
+13:1: EXP_MATH +
+13:5: NUMBER_LIT 3
+13:7: <-
+13:10: IDENT '去路'
+13:16: PAST prev
+13:21: IDENT '去路'
+13:26: TOPIC topic
+13:33: SET set
+13:37: ITS its
+13:41: IS_THUS is thus
+15:1: HERE_IS_A has a
+15:7: VAR_TYPE num
+15:11: NUMBER_LIT 4
+15:14: NAME_IT name it
+15:22: IDENT '人家'
+16:1: EXP_MATH +
+16:5: NUMBER_LIT 5
+16:7: <-
+16:10: IDENT '人家'
+16:16: PAST prev
+16:21: IDENT '人家'
+16:26: TOPIC topic
+16:33: SET set
+16:37: ITS its
+16:41: IS_THUS is thus
+18:1: HERE_ARE i have
+18:8: NUMBER_LIT 5
+18:10: VAR_TYPE str
+18:15: SAID called
+18:22: STR_LIT "信步走來，行了"
+18:35: SAID called
+18:42: IDENT '去路'
+18:48: SAID called
+18:55: STR_LIT "里路，遇見幾戶人家？想來是"
+18:74: SAID called
+18:81: IDENT '人家'
+18:87: SAID called
+18:94: STR_LIT "戶矣。"
+18:103: PRINT print
+20:1: HERE_ARE i have
+20:8: NUMBER_LIT 1
+20:10: VAR_TYPE str
+20:15: SAID called
+20:22: STR_LIT "亭臺六七座，八九十枝花。"
+20:40: PRINT print
+22:1: HERE_IS_A has a
+22:7: VAR_TYPE num
+22:11: NUMBER_LIT 6
+22:14: NAME_IT name it
+22:22: IDENT '亭臺'
+23:1: EXP_MATH +
+23:5: NUMBER_LIT 7
+23:7: <-
+23:10: IDENT '亭臺'
+23:16: PAST prev
+23:21: IDENT '亭臺'
+23:26: TOPIC topic
+23:33: SET set
+23:37: ITS its
+23:41: IS_THUS is thus
+25:1: HERE_IS_A has a
+25:7: VAR_TYPE num
+25:11: NUMBER_LIT 8
+25:14: NAME_IT name it
+25:22: IDENT '繁花'
+26:1: EXP_MATH +
+26:5: NUMBER_LIT 9
+26:7: <-
+26:10: IDENT '繁花'
+26:16: PAST prev
+26:21: IDENT '繁花'
+26:26: TOPIC topic
+26:33: SET set
+26:37: ITS its
+26:41: IS_THUS is thus
+27:1: EXP_MATH +
+27:5: NUMBER_LIT 10
+27:8: <-
+27:11: IDENT '繁花'
+27:17: PAST prev
+27:22: IDENT '繁花'
+27:27: TOPIC topic
+27:34: SET set
+27:38: ITS its
+27:42: IS_THUS is thus
+29:1: HERE_ARE i have
+29:8: NUMBER_LIT 3
+29:10: VAR_TYPE str
+29:15: SAID called
+29:22: STR_LIT "歇腳之處，竟有"
+29:35: SAID called
+29:42: IDENT '亭臺'
+29:48: SAID called
+29:55: STR_LIT "座之多。"
+29:65: PRINT print
+30:1: HERE_ARE i have
+30:8: NUMBER_LIT 3
+30:10: VAR_TYPE str
+30:15: SAID called
+30:22: STR_LIT "路邊繁花更盛，總計"
+30:37: SAID called
+30:44: IDENT '繁花'
+30:50: SAID called
+30:57: STR_LIT "枝！"
+30:65: PRINT print
+32:1: COMMENT NOTE
+32:7: STR_LIT " 算盡萬物，驗證連加 "
+33:1: EXP_MATH +
+33:5: IDENT '去路'
+33:10: <-
+33:13: IDENT '人家'
+33:19: EXP_MATH +
+33:23: IDENT '亭臺'
+33:28: <-
+33:31: ITS its
+33:36: EXP_MATH +
+33:40: IDENT '繁花'
+33:45: <-
+33:48: ITS its
+33:53: NAME_IT name it
+33:61: IDENT '萬物'
+35:1: HERE_ARE i have
+35:8: NUMBER_LIT 4
+35:10: VAR_TYPE str
+35:15: SAID called
+35:22: STR_LIT "老夫掐指一總，路、村、亭、花，此行共覽風物"
+35:49: SAID called
+35:56: IDENT '萬物'
+35:62: SAID called
+35:69: STR_LIT "件。"
+36:5: SAID called
+36:12: STR_LIT "想當然耳，風雅竟能稱斤論兩，妙極妙極！"
+36:37: PRINT print

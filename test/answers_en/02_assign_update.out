@@ -1,0 +1,95 @@
+1:1: COMMENT NOTE
+1:7: STR_LIT "
+    斯篇專測並宣告與易值之法。
+    驗其連立三數、更易舊有之值，
+    以明編譯識讀之確。
+"
+7:1: HERE_ARE i have
+7:8: NUMBER_LIT 1
+7:10: VAR_TYPE bool
+7:16: SAID called
+7:23: BOOL_LIT true
+7:29: NAME_IT name it
+7:37: IDENT '陰陽'
+7:72: COMMENT NOTE
+7:77: STR_LIT " bool 陰陽 = true; "
+8:1: HERE_ARE i have
+8:8: NUMBER_LIT 2
+8:10: VAR_TYPE num
+8:15: NAME_IT name it
+8:23: IDENT '零'
+8:28: SAID called
+8:35: IDENT '無'
+8:67: COMMENT NOTE
+8:72: STR_LIT " int 零, 無; "
+9:1: HERE_ARE i have
+9:8: NUMBER_LIT 3
+9:10: VAR_TYPE num
+9:15: SAID called
+9:22: NUMBER_LIT 1
+9:25: SAID called
+9:32: NUMBER_LIT 3
+9:35: SAID called
+9:42: NUMBER_LIT 5
+9:45: NAME_IT name it
+9:53: IDENT '甲'
+9:57: SAID called
+9:64: IDENT '乙'
+9:68: SAID called
+9:75: IDENT '丙'
+9:83: COMMENT NOTE
+9:88: STR_LIT " int 甲 = 1, 乙 = 3, 丙 = 5; "
+10:1: HERE_ARE i have
+10:8: NUMBER_LIT 1
+10:10: VAR_TYPE num
+10:15: SAID called
+10:22: IDENT '甲'
+10:27: NAME_IT name it
+10:35: IDENT '丁'
+10:67: COMMENT NOTE
+10:72: STR_LIT " int 丁 = 甲; "
+11:1: HERE_IS_A has a
+11:7: VAR_TYPE num
+11:11: NUMBER_LIT 50
+11:15: NAME_IT name it
+11:23: IDENT '大衍'
+11:64: COMMENT NOTE
+11:69: STR_LIT " int 大衍 = 50; "
+12:1: HERE_IS_A has a
+12:7: VAR_TYPE bool
+12:13: NAME_IT name it
+12:21: IDENT '否'
+12:67: COMMENT NOTE
+12:72: STR_LIT " bool 否; "
+14:1: HERE_ARE i have
+14:8: NUMBER_LIT 1
+14:10: VAR_TYPE str
+14:15: SAID called
+14:22: STR_LIT "噫吁戲"
+14:31: NAME_IT name it
+14:39: IDENT '唉呀'
+14:62: COMMENT NOTE
+14:67: STR_LIT " char* 唉呀 = "噫吁戲"; "
+15:1: HERE_IS_A has a
+15:7: VAR_TYPE str
+15:11: STR_LIT "問天地好在。"
+15:23: NAME_IT name it
+15:31: IDENT '文言'
+15:56: COMMENT NOTE
+15:61: STR_LIT " char* 文言 = "問天地好在。"; "
+17:1: PAST prev
+17:6: IDENT '丙'
+17:10: TOPIC topic
+17:17: SET set
+17:21: IDENT '大衍'
+17:26: IS_THUS is thus
+17:66: COMMENT NOTE
+17:71: STR_LIT " 丙 = 大衍; "
+18:1: PAST prev
+18:6: IDENT '否'
+18:10: TOPIC topic
+18:17: SET set
+18:21: IDENT '陰陽'
+18:26: IS_THUS is thus
+18:66: COMMENT NOTE
+18:71: STR_LIT " 否 = 陰陽; "
