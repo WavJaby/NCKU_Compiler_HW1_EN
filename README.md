@@ -73,7 +73,7 @@ Running the tests will show your current score — what you see is what you get.
 **Windows PowerShell:**
 
 ```shell
-.\test.ps1
+.\test.ps1 -English
 ```
 
 > If you encounter an error like `cannot be loaded ... is not digitally signed`, run the following first:
@@ -85,7 +85,7 @@ Running the tests will show your current score — what you see is what you get.
 
 ```shell
 chmod +x test.sh
-./test.sh
+./test.sh --english
 ```
 
 ### Debug Flags
@@ -132,7 +132,7 @@ chmod +x test.sh
 Then run:
 
 ```bash
-lexer_test
+lexer_test -e
 ```
 
 The default behavior stops at the first error. If you see line-ending issues (caused by editing on Windows), fix them with:
@@ -145,7 +145,7 @@ sed -i 's/\r$//' test.sh
 
 ### Submitting (HW1)
 
-Create a folder named `HW1` (uppercase) in your home directory and place the `NCKU_Compiler_HW1` folder inside it:
+Create a folder named `HW1` (uppercase) in your home directory and place the `NCKU_Compiler_HW1_EN` folder inside it:
 
 ```bash
 cd ~
